@@ -1,0 +1,7 @@
+linear_roughness/__init__.py
+linear_roughness/linear_roughness.py
+linear_roughness.egg-info/PKG-INFO
+linear_roughness.egg-info/SOURCES.txt
+linear_roughness.egg-info/dependency_links.txt
+linear_roughness.egg-info/not-zip-safe
+linear_roughness.egg-info/top_level.txt
