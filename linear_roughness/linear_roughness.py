@@ -663,7 +663,7 @@ class linear_roughness(object):
         if not np.array_equal(self.rkw, np.array([])):
             datafile = open(self.save_folder+'/'+dataname+"_kw.dat", 'w')
             datafile.write('%i\t%i\n' % (self._kwfit[0], self._kwfit[1]))
-            for i, x in enumerate(self.rlw):
+            for i, x in enumerate(self.rkw):
                 datafile.write(str(x) + '\t' + str(self.kolton_width[i]) + '\n')
             datafile.close()
         #
