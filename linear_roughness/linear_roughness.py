@@ -484,7 +484,7 @@ class linear_roughness(object):
             Br_per_window = 0
             for i in xrange(N-windowSize):
                 Br_per_window += (self.u[i+windowSize] - self.u[i]) ** 2
-            B_r.append(Br_per_window / (N-1) )
+            B_r.append( Br_per_window / (N-windowSize) )
         self.B_r = np.array(B_r)
         self.rB_r = possible_window_sizes*self.umperpix
         self.get_zeta_B_r()
